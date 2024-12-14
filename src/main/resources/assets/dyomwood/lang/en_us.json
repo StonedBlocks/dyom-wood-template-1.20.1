@@ -1,3 +1,7 @@
 {
-  "block.dyomwood.compressed_dyom_wood_stone": "Compressed Dyom Wood Stone"
+  "block.dyomwood.compressed_dyom_wood_stone": "Compressed Dyom Wood Stone",
+
+  "item.dyomwood.compressed_dyom_wood_rock": "Compressed Dyom Wood Rock",
+
+  "itemgroup.dyom_group": "Dyom Group"
 }

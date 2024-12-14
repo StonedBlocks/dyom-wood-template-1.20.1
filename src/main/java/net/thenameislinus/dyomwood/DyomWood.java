@@ -2,6 +2,9 @@ package net.thenameislinus.dyomwood;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.thenameislinus.dyomwood.block.ModBlocks;
+import net.thenameislinus.dyomwood.item.ModItemGroup;
+import net.thenameislinus.dyomwood.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +15,12 @@ public class DyomWood implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroup.registerItemGroups();
+
+
+
 	}
 }
