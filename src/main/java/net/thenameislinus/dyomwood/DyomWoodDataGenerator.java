@@ -12,7 +12,7 @@ public class DyomWoodDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModBlockLootTableGenerator::new);
-		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeGenerator::new);
 	}
 }
