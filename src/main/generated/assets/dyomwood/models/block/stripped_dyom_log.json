@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dyomwood:block/stripped_dyom_log_top",
+    "side": "dyomwood:block/stripped_dyom_log"
+  }
+}

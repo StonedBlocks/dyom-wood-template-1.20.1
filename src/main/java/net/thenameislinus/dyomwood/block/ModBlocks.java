@@ -50,7 +50,7 @@ public class ModBlocks {
     }
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
-        return Registry.register(Registries.BLOCK, new Identifier(WoodTypeMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(DyomWood.MOD_ID, name), block);
     }
 
     public static void registerModBlocks() {

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dyomwood:block/dyom_slab"
+    },
+    "type=double": {
+      "model": "dyomwood:block/dyom_planks"
+    },
+    "type=top": {
+      "model": "dyomwood:block/dyom_slab_top"
+    }
+  }
+}

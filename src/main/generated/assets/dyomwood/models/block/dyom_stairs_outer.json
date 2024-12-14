@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dyomwood:block/dyom_planks",
+    "side": "dyomwood:block/dyom_planks",
+    "top": "dyomwood:block/dyom_planks"
+  }
+}
