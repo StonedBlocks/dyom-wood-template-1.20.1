@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dyomwood:block/compressed_dyom_wood_stone"
+  }
+}

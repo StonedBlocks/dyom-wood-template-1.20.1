@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dyomwood:item/compressed_dyom_wood_rock"
+  }
+}
