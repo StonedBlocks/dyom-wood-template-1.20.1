@@ -26,6 +26,12 @@ public class ModModelProvider extends FabricModelProvider {
 
         dyomPlanksTexturePool.stairs(ModBlocks.DYOM_STAIRS);
         dyomPlanksTexturePool.slab(ModBlocks.DYOM_SLAB);
+        dyomPlanksTexturePool.button(ModBlocks.DYOM_BUTTON);
+        dyomPlanksTexturePool.pressurePlate(ModBlocks.DYOM_PRESSURE_PLATE);
+
+
+        blockStateModelGenerator.registerDoor(ModBlocks.DYOM_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.DYOM_TRAPDOOR);
 
 
     }

@@ -1,6 +1,25 @@
 {
   "block.dyomwood.compressed_dyom_wood_stone": "Compressed Dyom Wood Stone",
 
+  "block.dyomwood.dyom_log": "Dyom Log",
+  "block.dyomwood.dyom_wood": "Dyom Wood",
+  "block.dyomwood.stripped_dyom_log": "Stripped Dyom Log",
+  "block.dyomwood.stripped_dyom_wood": "Dyom Wood",
+
+  "block.dyomwood.dyom_planks": "Dyom Planks",
+  "block.dyomwood.dyom_leaves": "Dyom Leaves",
+
+  "block.dyomwood.dyom_stairs": "Dyom Stairs",
+  "block.dyomwood.dyom_slab": "Dyom Slab",
+
+  "block.dyomwood.dyom_door": "Dyom Door",
+  "block.dyomwood.dyom_trapdoor": "Dyom Trapdoor",
+
+  "block.dyomwood.dyom_button": "Dyom Button",
+  "block.dyomwood.dyom_pressure_plate": "Dyom Pressure Plate",
+
+  "block.dyomwood.dyom_sapling": "Dyom Sapling",
+
   "item.dyomwood.compressed_dyom_wood_rock": "Compressed Dyom Wood Rock",
 
   "itemgroup.dyom_group": "Dyom Group"

@@ -38,6 +38,16 @@ public class ModBlocks {
     public static final Block DYOM_SLAB = registerBlock("dyom_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
 
+    public static final Block DYOM_BUTTON = registerBlock("dyom_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.OAK_BUTTON), BlockSetType.OAK, 10, true));
+    public static final Block DYOM_PRESSURE_PLATE = registerBlock("dyom_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE), BlockSetType.OAK));
+
+    public static final Block DYOM_DOOR = registerBlock("dyom_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR), BlockSetType.OAK));
+    public static final Block DYOM_TRAPDOOR = registerBlock("dyom_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

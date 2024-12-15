@@ -1,2 +1,14 @@
-// 1.20.1	2024-12-14T19:33:07.415161	Dyom Wood/Block Loot Tables
+// 1.20.1	2024-12-15T08:04:33.4917143	Dyom Wood/Block Loot Tables
+7e69f93a89c3f707c24279bb8acbfa07222d2c26 data\dyomwood\loot_tables\blocks\dyom_pressure_plate.json
+d4e172ea6f50a862428d8bdc224f3de86841676a data\dyomwood\loot_tables\blocks\stripped_dyom_log.json
+d57431ba544bdd1485c528c23de4aa07eda64b95 data\dyomwood\loot_tables\blocks\dyom_trapdoor.json
+edba6d8c63814b51386741a3087913d83a351515 data\dyomwood\loot_tables\blocks\dyom_door.json
+d33d841a7e3813f19c5893281a903aaac354e5bc data\dyomwood\loot_tables\blocks\dyom_wood.json
 e953a6f3bcb7759a23468b717de00e903c48d8ff data\dyomwood\loot_tables\blocks\compressed_dyom_wood_stone.json
+775e6387237ca9d2357128bf0bcbed200563250a data\dyomwood\loot_tables\blocks\dyom_stairs.json
+973f99cc0a4c2cbe9beb1109eb9a6cfbc3f41346 data\dyomwood\loot_tables\blocks\dyom_sapling.json
+3e88cb7f424fa1ee36eb6010336bd8812191bc24 data\dyomwood\loot_tables\blocks\stripped_dyom_wood.json
+a7e66b96c306a7d49ccdcae70403a22d9b354b89 data\dyomwood\loot_tables\blocks\dyom_log.json
+82376f15fb9f3aafe64c95d69201417ecb3bec6a data\dyomwood\loot_tables\blocks\dyom_slab.json
+bc9f64dbd84cda9a8f94b7a4d7bde180a59f47e3 data\dyomwood\loot_tables\blocks\dyom_planks.json
+8cb2fb9c7a573a6637b03099b9b5a750ad5f9b88 data\dyomwood\loot_tables\blocks\dyom_button.json

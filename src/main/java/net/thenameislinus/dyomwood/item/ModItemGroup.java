@@ -26,6 +26,11 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DYOM_SAPLING);
                         entries.add(ModBlocks.DYOM_STAIRS);
                         entries.add(ModBlocks.DYOM_SLAB);
+                        entries.add(ModBlocks.DYOM_DOOR);
+                        entries.add(ModBlocks.DYOM_TRAPDOOR);
+                        entries.add(ModBlocks.DYOM_BUTTON);
+                        entries.add(ModBlocks.DYOM_PRESSURE_PLATE);
+
 
                         entries.add(ModItems.COMPRESSED_DYOM_WOOD_ROCK);
                         
