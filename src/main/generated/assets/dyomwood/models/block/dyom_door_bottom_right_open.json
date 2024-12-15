@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "dyomwood:block/dyom_door_bottom",
+    "top": "dyomwood:block/dyom_door_top"
+  }
+}

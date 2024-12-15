@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dyomwood:dyom_log",
+    "dyomwood:dyom_wood",
+    "dyomwood:stripped_dyom_log",
+    "dyomwood:stripped_dyom_wood"
+  ]
+}
