@@ -25,6 +25,8 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DYOM_SLAB, slabDrops(ModBlocks.DYOM_SLAB));
         addDrop(ModBlocks.DYOM_TRAPDOOR);
         addDrop(ModBlocks.DYOM_DOOR, doorDrops(ModBlocks.DYOM_DOOR));
+        addDrop(ModBlocks.DYOM_FENCE);
+        addDrop(ModBlocks.DYOM_FENCE_GATE);
 
     }
 }

@@ -17,5 +17,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.DYOM_LOG, ModBlocks.DYOM_WOOD, ModBlocks.STRIPPED_DYOM_LOG, ModBlocks.STRIPPED_DYOM_WOOD);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.DYOM_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.DYOM_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.COMPRESSED_DYOM_WOOD_STONE);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.COMPRESSED_DYOM_WOOD_STONE);
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.DYOM_PLANKS, ModBlocks.DYOM_LEAVES);
+
     }
 }

@@ -30,7 +30,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DYOM_TRAPDOOR);
                         entries.add(ModBlocks.DYOM_BUTTON);
                         entries.add(ModBlocks.DYOM_PRESSURE_PLATE);
-
+                        entries.add(ModBlocks.DYOM_FENCE);
+                        entries.add(ModBlocks.DYOM_FENCE_GATE);
 
                         entries.add(ModItems.COMPRESSED_DYOM_WOOD_ROCK);
                         

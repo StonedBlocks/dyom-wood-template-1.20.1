@@ -18,6 +18,9 @@
   "block.dyomwood.dyom_button": "Dyom Button",
   "block.dyomwood.dyom_pressure_plate": "Dyom Pressure Plate",
 
+  "block.dyomwood.dyom_fence": "Dyom Fence",
+  "block.dyomwood.dyom_fence_gate": "Dyom Fence Gate",
+
   "block.dyomwood.dyom_sapling": "Dyom Sapling",
 
   "item.dyomwood.compressed_dyom_wood_rock": "Compressed Dyom Wood Rock",

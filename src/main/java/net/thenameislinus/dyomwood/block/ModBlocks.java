@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block COMPRESSED_DYOM_WOOD_STONE = registerBlock("compressed_dyom_wood_stone",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).requiresTool()));
 
     public static final Block DYOM_LOG = registerBlock("dyom_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
@@ -29,9 +29,9 @@ public class ModBlocks {
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1f)));
 
     public static final Block DYOM_SAPLING = registerBlock("dyom_sapling",
-            new SaplingBlock(null, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4f).requiresTool()));
+            new SaplingBlock(null, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
     public static final Block POTTED_DYOM_SAPLING = registerBlockWithoutBlockItem("potted_dyom_sapling",
-            new FlowerPotBlock(DYOM_SAPLING, FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING).strength(4f).requiresTool()));
+            new FlowerPotBlock(DYOM_SAPLING, FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING)));
 
     public static final Block DYOM_STAIRS = registerBlock("dyom_stairs",
             new StairsBlock(ModBlocks.DYOM_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
@@ -47,6 +47,11 @@ public class ModBlocks {
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR), BlockSetType.OAK));
     public static final Block DYOM_TRAPDOOR = registerBlock("dyom_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
+
+    public static final Block DYOM_FENCE = registerBlock("dyom_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block DYOM_FENCE_GATE = registerBlock("dyom_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), WoodType.ACACIA));
 
 
     private static Block registerBlock(String name, Block block) {
